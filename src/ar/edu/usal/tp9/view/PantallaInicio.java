@@ -19,6 +19,10 @@ public class PantallaInicio {
 		
 		ventana.setSize(VENTANA_ANCHO, VENTANA_ALTO);
 		ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		leyenda.setEditable(false);	
+		leyenda.setLineWrap(true);	
+		leyenda.setWrapStyleWord(true); 	
+		leyenda.setBackground(ventana.getBackground());
 		ventana.setLayout(ESTILO_LAYOUT);
 		ventana.add(leyenda);
 		ventana.setVisible(true); 
